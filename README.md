@@ -33,7 +33,7 @@ Traditionally, building a voice assistant required chaining together several mod
 
 The voice component itself relies on two key technologies: Speech-to-Text (STT) and Text-to-Speech (TTS). STT is responsible for converting your speech into text, in simple terms, it “listens and writes.” The resulting text is then passed as input to the LLM. After the LLM generates a response, TTS performs the reverse process, converting that text back into speech.
 
-![alt text](images/image_2.png)
+![alt text](image/image_2.png)
 
 # Basic Workflow:
 
@@ -224,7 +224,7 @@ Each Word object in the words array includes:
 
 **confidence:** Confidence score for the word
 
-![alt text](images/image_1.png)
+![alt text](image/image_1.png)
 
 ## Immutable transcription:
 
@@ -258,5 +258,6 @@ https://docs.langchain.com/oss/python/langchain/voice-agent
 https://modal.com/blog/open-source-stt
 
 https://huggingface.co/spaces/hf-audio/open_asr_leaderboard
+
 
 https://greylock.com/greymatter/voice-agents-easy-to-use-hard-to-build/
